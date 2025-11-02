@@ -4,8 +4,7 @@ import logging
 from enum import Enum, auto
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup, ReplyKeyboardMarkup, KeyboardButton
 from telegram.ext import (
-    MessageHandler, CallbackQueryHandler, ConversationHandler,
-    filters, ContextTypes
+    MessageHandler, CallbackQueryHandler, ConversationHandler, filters, ContextTypes, CommandHandler
 )
 
 import database as db

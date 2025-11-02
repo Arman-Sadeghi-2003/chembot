@@ -2,7 +2,8 @@
 import re
 import logging
 from enum import Enum, auto
-from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup, ReplyKeyboardMarkup, KeyboardButton, Forbidden
+from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup, ReplyKeyboardMarkup, KeyboardButton
+from telegram.error import Forbidden
 from telegram.ext import (
     CommandHandler, MessageHandler, CallbackQueryHandler, ConversationHandler,
     filters, ContextTypes
