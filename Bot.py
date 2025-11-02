@@ -29,9 +29,8 @@ logger = logging.getLogger(__name__)
 # !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 # !!! توکن ربات جدید خود را در اینجا قرار دهید !!!
 # !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-BOT_TOKEN = "YOUR_NEW_BOT_TOKEN_HERE" 
-DB_PATH = "jahad_bot.db" # نام پایگاه داده جدید
-
+BOT_TOKEN = "7996022698:AAG65GXEjbDbgMGFVT9ExeGFmkvj0UDqbXE"
+DB_PATH = "chemeng_bot.db"
 def init_db():
     """ایجاد جدول کاربران در پایگاه داده"""
     with sqlite3.connect(DB_PATH) as conn:
